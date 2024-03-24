@@ -17,15 +17,15 @@ body{
 }
 
 .informacao__conteudo {
-    width: 615px; /* Tamanho do texto */
+    width: 38.5rem; /* Tamanho do texto */
     display: flex; /*Colocando os textos lado a lado */
     flex-direction: column; /* colocando os textos em forma de coluna um a baixo do outro*/
-    gap: 40px; /* dando um espaço de 60px em cada um deles no caso dando espaço nos 2 textos*/
+    gap: 2.5rem; /* dando um espaço de 60px em cada um deles no caso dando espaço nos 2 textos*/
 }
 
 
 .informacao__conteudo__titulo{
-    font-size: 36px; /* Alterando o tamanho da fonte */
+    font-size: 2.25rem; /* Alterando o tamanho da fonte */
     font-family: var(--fonte-princial); /* Alterando a fonte que ja importamos no outro style*/
 }
 
@@ -35,7 +35,7 @@ body{
 
 
 .informacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 
 }
@@ -51,11 +51,11 @@ body{
     bottom: 0;
     width: 100%;
     background-color: var(--cor-terciaria);
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
     color: var(--cor-princial);;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     
 
