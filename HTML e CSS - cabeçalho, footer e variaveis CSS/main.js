@@ -1,0 +1,1 @@
+alert('Para melhor visualização acesse pelo computador!')
